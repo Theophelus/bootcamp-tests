@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.min.js"></script>
+</head>
+
+<body>
+    <div id="mocha"></div>
+    <script>
+        mocha.setup('bdd');
+        var assert = chai.assert;
+    </script>
+    <!-- the function to be tested -->
+    <script src="tests/test.js" charset="utf-8"></script>
+
+    <!---testing greet function-------------------->
+    <!-- the function to be tested-->
+    <script src="greet.js" charset="utf-8"></script>
+    <!-- followed by the tests-->
+    <script src="tests/greet.test.js" charset="utf-8"></script>
+    <!---end greet function-------------------->
+    <!---testing isFromBellville function-------------------->
+    <!-- the function to be tested-->
+    <script src="isFromBellville.js" charset="utf-8"></script>
+    <!-- followed by the tests-->
+    <script src="tests/isFromBellville.test.js" charset="utf-8"></script>
+    <!---end isFromBellville function-------------------->
+
+    <!---testing regCheck function-------------------->
+    <!-- the function to be tested-->
+    <script src="regCheck.js" charset="utf-8"></script>
+    <!-- followed by the tests-->
+    <script src="tests/regCheck.test.js" charset="utf-8"></script>
+    <!---end regCheck function-------------------->
+
+    <!---testing countRegNumber function-------------------->
+    <!-- the function to be tested-->
+    <script src="countRegNumber.js" charset="utf-8"></script>
+    <!-- followed by the tests-->
+    <script src="tests/countRegNumbers.test.js" charset="utf-8"></script>
+    <!---end countRegNumber function-------------------->
+
+    <!---testing isWeekDay function-------------------->
+    <!-- the function to be tested-->
+    <script src="isWeekDay.js" charset="utf-8"></script>
+    <!-- followed by the tests-->
+    <script src="tests/isWeekDay.test.js" charset="utf-8"></script>
+    <!---end isWeekDay function-------------------->
+
+    <!---testing yearsAgo function-------------------->
+    <!-- the function to be tested-->
+    <script src="yearsAgo.js" charset="utf-8"></script>
+    <!-- followed by the tests-->
+    <script src="tests/yearsAgo.test.js" charset="utf-8"></script>
+    <!---end yearsAgo function-------------------->
+
+    <!---testing countAllPaarl function-------------------->
+    <!-- the function to be tested-->
+    <script src="countAllPaarl.js" charset="utf-8"></script>
+    <!-- followed by the tests-->
+    <script src="tests/countAllPaarl.test.js" charset="utf-8"></script>
+    <!---end countAllPaarl function-------------------->
+
+    <!---testing countAllCapeTown function-------------------->
+    <!-- the function to be tested-->
+    <script src="countAllFromTown.js" charset="utf-8"></script>
+    <!-- followed by the tests-->
+    <script src="tests/countAllFromTown.test.js" charset="utf-8"></script>
+    <!---end countAllCapeTown function-------------------->
+
+    <!---testing transportFee function-------------------->
+    <!-- the function to be tested-->
+    <script src="transportFee.js" charset="utf-8"></script>
+    <!-- followed by the tests-->
+    <script src="tests/transportFee.test.js" charset="utf-8"></script>
+    <!---end transportFee function-------------------->
+
+    <!---testing totalPhoneBill function-------------------->
+    <!-- the function to be tested-->
+    <script src="totalPhoneBill.js" charset="utf-8"></script>
+    <!-- followed by the tests-->
+    <script src="tests/totalPhoneBill.test.js" charset="utf-8"></script>
+    <!---end totalPhoneBill function-------------------->
+
+    <!---testing totalPhoneBill function-------------------->
+    <!-- the function to be tested-->
+    <script src="fromWhere.js" charset="utf-8"></script>
+    <!-- followed by the tests-->
+    <script src="tests/fromWhere.test.js" charset="utf-8"></script>
+    <!---end totalPhoneBill function-------------------->
+
+    <!--- function findItemsOver20 -------------------->
+    <!-- the function to be tested-->
+    <script src="findItemsOver20.js" charset="utf-8"></script>
+    <!-- followed by the tests-->
+    <script src="tests/findItemsOver20.test.js" charset="utf-8"></script>
+    <!---end findItemsOver20 function-------------------->
+
+    <!--- function findItemsOver -------------------->
+    <!-- the function to be tested-->
+    <script src="findItemsOver.js" charset="utf-8"></script>
+    <!-- followed by the tests-->
+    <script src="tests/findItemsOver.test.js" charset="utf-8"></script>
+    <!---end findItemsOver function-------------------->
+
+    <!--- function shop department -------------------->
+    <!-- the function to be tested-->
+    <script src="mostProfitableDepartment.js" charset="utf-8"></script>
+    <!-- followed by the tests-->
+    <script src="tests/mostProfitableDepartment.test.js" charset="utf-8"></script>
+    <!---end shop department function-------------------->
+    <script>
+        mocha.checkLeaks();
+
+        mocha.run();
+    </script>
+</body>
+
+</html>
