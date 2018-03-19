@@ -1,10 +1,10 @@
 describe('isFromBellville', function(){
   it('should check if the the reg Number is from Bellville', function(){
     var numbers = 'CY';
-    assert.equal(isFromBellville(numbers), true);
+    assert.equal(isFromBellville('CY'), true);
   });
-  it('should check if the the reg Number is from Bellville', function(){
+  it('should return false is registration is not from Bellville', function(){
     var numbers = 'CJ';
-    assert.equal(isFromBellville(numbers), false);
+    assert.equal(isFromBellville('CJ'), false);
   });
 });
